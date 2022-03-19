@@ -12,6 +12,7 @@
 import requests
 import pandas as pd
 
+# https://www.youtube.com/watch?v=2mSwcRb3KjQ
 
 baseUrl = "https://rickandmortyapi.com/api"
 endpoint = "/character/"
@@ -31,7 +32,8 @@ def parse_json(response):
     charlist = []
 
     for item in response["results"]:
-        char = {"id": item["id"], "name": item["name"], "no_ep": len(item["episode"])}
+        char = {"id": item["id"], "name": item["name"],
+                "no_ep": len(item["episode"])}
         charlist.append(char)
 
     return charlist
