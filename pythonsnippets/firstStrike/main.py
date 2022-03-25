@@ -12,10 +12,13 @@
 import requests
 import pandas as pd
 
+# https://www.youtube.com/watch?v=-oPuGc05Lxs
 # https://www.youtube.com/watch?v=2mSwcRb3KjQ
 # https://www.youtube.com/channel/UCtA2USp3OCEL_QRXsLwF5fw/videos
 # https://www.youtube.com/watch?v=T6OLDHAWjjA&list=PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp&index=3
 # https://www.youtube.com/watch?v=t8pPdKYpowI 2:30
+# https://www.youtube.com/watch?v=LzYNWme1W6Q
+# https://www.youtube.com/watch?v=Al1xwYhQ-BM
 
 
 baseUrl = "https://rickandmortyapi.com/api"

@@ -3,7 +3,7 @@ my_month_list = ["jan", "feb", "mar", "apr", "may",
 
 my_month_set = {"jan", "feb", "mar", "apr", "may"}
 
-# my_month_list.append("dec")
+my_month_list.sort()
 
 print(my_month_list)
 
